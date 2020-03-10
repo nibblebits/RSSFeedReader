@@ -2,12 +2,12 @@
     "name": "nibblebits/rssfeedreader",
     "description": "An RSS feed reader library in PHP that also extracts images from URL content",
     "require": {
-        "ext-curl": "^0.0.0",
-        "lib-curl": "^7.47",
-        "guzzlehttp/guzzle": "^6.5",
-        "php": "^5.3.0"
+        "ext-curl": ">=0.0.0",
+        "lib-curl": ">=7.47",
+        "guzzlehttp/guzzle": ">=6.5",
+        "php": ">=5.3.0"
     },
-    "license": "LGPL",
+    "license": "LGPL-2.1-or-later",
     "authors": [
         {
             "name": "Daniel McCarthy",
