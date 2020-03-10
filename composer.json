@@ -8,6 +8,11 @@
         "php": ">=5.3.0"
     },
     "license": "LGPL-2.1-or-later",
+    "autoload": {
+        "psr-4": {
+            "Nibblebits\\RssFeedReader\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Daniel McCarthy",
