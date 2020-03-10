@@ -1,8 +1,8 @@
 <?php
 
-namespace Nibblebits\RSSFeedReader;
+namespace Nibblebits\RssFeedReader;
 
-class RSSFeedReader
+class Reader
 {
     public function test()
     {
