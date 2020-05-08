@@ -42,7 +42,7 @@ final class Item
                 }
                 $src = $imageTag->getAttribute('src');
                 // Ignore where we have data:image
-                if (strpos($src, "data:image") == 0)
+                if (strpos($src, "data:image") === 0)
                 {
                     continue;
                 }
