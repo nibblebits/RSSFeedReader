@@ -41,6 +41,11 @@ final class Item
                     $title = $imageTag->getAttribute('alt');
                 }
                 $src = $imageTag->getAttribute('src');
+                // Ignore where we have data:image
+                if (strpos($src, "data:image") == 0)
+                {
+                    continue;
+                }
                 $image = new Image($this->link, $title, $src, $title, $width, $height);
             }
         }
